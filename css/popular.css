@@ -1,0 +1,48 @@
+/* popular Section Styling */
+.box-popular img {
+  width: 90%;
+}
+.box-popular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+.h2-popular-box {
+  color: var(--red);
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-top: 2rem;
+}
+.container-popular {
+  grid-gap: 5rem;
+}
+.p-popular-box {
+  font-size: 1.5rem;
+}
+.stars {
+  font-size: 2rem;
+  cursor: pointer;
+  color: gold;
+  padding: 0.5rem 1.5rem;
+}
+/* Work Styling */
+/* Very less styling is made to be done thats why no new stylesheet is required */
+.stages {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+.stage-process {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.stage-process h2 {
+  margin-top: 2rem;
+}

@@ -20,6 +20,6 @@ var form = document.getElementById('sheetdb-form');
             response => response.json()
         ).then((html) => {
         // you can put any JS code here
-        alert('Your Order is Accepted by A.S. Devleopers - Thankyou')
+        alert('Your Order is Accepted by A.S. Devleopers you will recieve copy of your order through email - Thankyou')
     });
 });
